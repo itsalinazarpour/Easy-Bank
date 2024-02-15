@@ -2,15 +2,14 @@
 
 This projects includes:
 
-1.HTML5 
+1.HTML5
 2.CSS3
 3.Flexbox
-4.Css grid 
+4.Css grid
 
 •The Demo Link of the website hosted by GitHub Pages:
 
 https://yasaman-ghobadi.github.io/Easy-Bank/
-
 
 Important notes:
 
@@ -27,6 +26,3 @@ https://www.youtube.com/watch?v=qkYsiVcvb1o
 
 •The source code:
 https://github.com/zinotrust/easybank
-
-
-

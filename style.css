@@ -121,6 +121,7 @@ li a {
   color: var(--grayish-blue);
   position: relative;
 }
+
 .nav-ul li a {
   font-size: 1.6rem;
   text-decoration: none;

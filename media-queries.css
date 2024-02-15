@@ -24,8 +24,8 @@
     .nav-ul {
         flex-direction: column;
         width: 90%;
-        
-        margin:0 auto;
+
+        margin: 0 auto;
         margin-top: 4rem;
         background-color: var(--white);
         border: 1px solid skyblue;
@@ -60,7 +60,7 @@
     li a:hover {
         color: var(--lime-green);
         background-color: var(--very-light-gray);
-        
+
     }
 
     nav ul li a:hover::before {
@@ -70,7 +70,7 @@
     /* SLIDE THE MENU WHEN THE HAMBURGER IS CLICKED */
 
     #toggle:checked~.nav-ul {
-        transform: translate(50%,1%);
+        transform: translate(50%, 1%);
         top: 50px;
 
 
@@ -185,8 +185,8 @@
 
 }
 
-@media  (min-width:857px) {
+@media (min-width:857px) {
     .footer-links {
-        text-align:initial;
-      }
+        text-align: initial;
+    }
 }

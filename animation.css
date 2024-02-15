@@ -1,12 +1,19 @@
 @keyframes moveUP {
+
   /* moveup is the name of our animation */
   0% {
     /* we want it to be this way at 0% */
     transform: translateY(10%);
   }
+
   50% {
     transform: translateY(5%);
+    -webkit-transform: translateY(5%);
+    -moz-transform: translateY(5%);
+    -ms-transform: translateY(5%);
+    -o-transform: translateY(5%);
   }
+
   100% {
     transform: translateY(0);
   }
