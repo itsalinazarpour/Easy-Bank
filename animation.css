@@ -2,8 +2,12 @@
 
   /* moveup is the name of our animation */
   0% {
-    /* we want it to be this way at 0% */
+    /*wewantittobethiswayat0%*/
     transform: translateY(10%);
+    -webkit-transform: translateY(10%);
+    -moz-transform: translateY(10%);
+    -ms-transform: translateY(10%);
+    -o-transform: translateY(10%);
   }
 
   50% {
@@ -15,10 +19,15 @@
   }
 
   100% {
-    transform: translateY(0);
+    transform: translateY(1%);
+    -webkit-transform: translateY(1%);
+    -moz-transform: translateY(1%);
+    -ms-transform: translateY(1%);
+    -o-transform: translateY(1%);
   }
 }
 
 .moveUP {
   animation: moveUP 0.8s 1 linear;
+  -webkit-animation: moveUP 0.8s 1 linear;
 }
